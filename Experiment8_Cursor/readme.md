@@ -324,6 +324,7 @@ END;
 ```
 **Output:**  
 The program should update employee salaries and display a message, or it should display an error message if no data is found.
+
 <img width="614" height="96" alt="image" src="https://github.com/user-attachments/assets/718d1836-b701-454f-ac71-7e97d16b9607" />
 
 ---
