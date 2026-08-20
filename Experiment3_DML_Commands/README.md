@@ -47,7 +47,7 @@ SELECT column1, column2 FROM table_name WHERE condition;
 ```
 **Question 1**
 --
--- Update the reorder level to 40 pieces for all products belonging to the 'Grocery' category in the products table.
+Update the reorder level to 40 pieces for all products belonging to the 'Grocery' category in the products table.
 
 PRODUCTS TABLE
 
@@ -83,7 +83,7 @@ where category='Grocery';
 
 **Question 2**
 ---
--- Write a SQL statement to Update the product_name to 'Premium Bread' whose product ID is 5 in the products table.
+Write a SQL statement to Update the product_name to 'Premium Bread' whose product ID is 5 in the products table.
 
 Products table
 
@@ -111,7 +111,7 @@ where product_id=5;
 
 **Question 3**
 ---
--- Write a SQL statement to double the availability of the product with product_id 1.
+Write a SQL statement to double the availability of the product with product_id 1.
 
 products table
 
@@ -134,7 +134,7 @@ where product_id =1;
 
 **Question 4**
 ---
--- Write a SQL statement to Update the grade of all customers in Chennai city as  5. 
+Write a SQL statement to Update the grade of all customers in Chennai city as  5. 
 ```sql
 UPDATE customer 
 set grade=5
@@ -148,7 +148,7 @@ where city='Chennai';
 
 **Question 5**
 ---
---Write a SQL query to Delete customers from 'customer' table where 'GRADE' is odd.
+Write a SQL query to Delete customers from 'customer' table where 'GRADE' is odd.
 
 Sample table: Customer
 
@@ -177,7 +177,7 @@ where grade%2=1;
 
 **Question 6**
 ---
---Write a SQL query to Delete a Specific Surgery which was made on 28th Feb 2024.
+Write a SQL query to Delete a Specific Surgery which was made on 28th Feb 2024.
 
 Sample table: Surgeries
 
@@ -208,7 +208,7 @@ where surgery_date='2024-02-28';
 
 **Question 7**
 ---
--- Write a SQL query to Delete customers from 'customer' table where 'CUST_NAME' contains the substring 'Holmes'.
+Write a SQL query to Delete customers from 'customer' table where 'CUST_NAME' contains the substring 'Holmes'.
 
 Sample table: Customer
 
@@ -241,7 +241,7 @@ where CUST_NAME like '%Holmes%';
 
 **Question 8**
 ---
--- Write a SQL query to Select all patients whose name starts with A.
+Write a SQL query to Select all patients whose name starts with A.
 
 Table: Patients
 
@@ -274,7 +274,7 @@ and first_name<'B';
 
 **Question 9**
 ---
---Write a query to find all the employees whose salary is between 50000 to 100000 from employeeposition table.
+Write a query to find all the employees whose salary is between 50000 to 100000 from employeeposition table.
 
 EmpID
 
@@ -325,7 +325,7 @@ where salary between 50000 and 100000;
 
 **Question 10**
 ---
--- Write a SQL query to assign a priority of 'Low', 'Medium', or 'High' to value2 based on whether it is less than 20, between 20 and 50, or greater than 50, respectively in the Calculations table.
+Write a SQL query to assign a priority of 'Low', 'Medium', or 'High' to value2 based on whether it is less than 20, between 20 and 50, or greater than 50, respectively in the Calculations table.
 
 cid         name        type        notnull     dflt_value  pk
 ----------  ----------  ----------  ----------  ----------  ----------
